@@ -71,7 +71,7 @@ def la_mediana():
 
 def termina_vocal():
     frase_palabra = input("Ingrese una frase o palabra: \n").capitalize()
-    if(frase_palabra[-1] == 'a' or frase_palabra[-1] == 'e' or frase_palabra[-1] == 'i' or frase_palabra[-1] == 'o' frase_palabra[-1] == 'u'):
+    if(frase_palabra[-1] == 'a' or frase_palabra[-1] == 'e' or frase_palabra[-1] == 'i' or frase_palabra[-1] == 'o' frase_palabra[-1] == 'u')
         frase_palabra = frase_palabra + '!'
     
     print(frase_palabra)
